@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(red,yellow); */
+    /* background-repeat: no-repeat; */
+    background-color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+}
+
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+    
+   
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 5px;
+    /* background-color: chocolate; */
+    width: 25%;
+    padding: 20px;
+}
+
+label{
+    font-size: 30px;
+    
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: bisque;
+    padding-left: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+#NA{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+#but{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: red;
+}
+
+#icon,#picon {
+    position: relative;
+}
+.fa-solid{
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
